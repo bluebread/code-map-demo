@@ -1,0 +1,22 @@
+{
+  "name": "code-map-demo",
+  "version": "1.0.0",
+  "description": "\"# code-map-demo\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluebread/code-map-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluebread/code-map-demo/issues"
+  },
+  "homepage": "https://github.com/bluebread/code-map-demo#readme",
+  "devDependencies": {
+    "electron": "1.7.9"
+  }
+}
