@@ -8788,3 +8788,26 @@ button.close {
     display: none !important;
   }
 }
+/* line 10, ../sass/styles.scss */
+html {
+  width: 100%;
+  height: 100;
+}
+
+/* line 14, ../sass/styles.scss */
+body {
+  width: 100%;
+  height: 100;
+}
+
+/* line 18, ../sass/styles.scss */
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+/* line 23, ../sass/styles.scss */
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}

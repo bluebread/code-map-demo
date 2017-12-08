@@ -1,0 +1,15 @@
+{
+    "nodes":[
+        {"id": "main", "attr": "function", "value":5},
+        {"id": "contract", "attr": "function", "value":4},
+        {"id": "all", "attr": "int", "value":2},
+        {"id": "str", "attr": "string", "value":3},
+        {"id": "system", "attr": "function", "value":4}
+    ],
+    "links":[
+        {"source": "main", "target": "contract", "value": 1},
+        {"source": "main", "target": "system", "value": 1},
+        {"source": "contract", "target": "all", "value": 1},
+        {"source": "contract", "target": "str", "value": 1}
+    ]
+}

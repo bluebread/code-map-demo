@@ -1,4 +1,5 @@
-const {app, BrowserWindow} = require('electron');
+const {app, BrowserWindow, ipcMain} = require('electron');
+
 const path = require('path');
 const url = require('url');
 
@@ -8,7 +9,10 @@ let win;
 
 function createWindow () {
   // 建立瀏覽器視窗。
-  win = new BrowserWindow({width: 800, height: 600});
+  win = new BrowserWindow({
+    fullscreen: true
+    // frame: false
+  });
 
   // 並載入應用程式的 index.html。
   win.loadURL(url.format({
@@ -47,3 +51,4 @@ app.on('activate', () => {
     createWindow();
   }
 });
+
